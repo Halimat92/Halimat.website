@@ -21,8 +21,8 @@
 					<div id="intro">
 						<h1>Halimat Ayeola-Aina Portfolio<br />
 						</h1>
-						<p>A Data Scientist/Analyst skilled in Python, Power BI, SQL, Excel, and Tableau <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						 <a href="https://html5up.net/license"></a>.</p>
+						<p>I am a results-driven Data Scientist with over 8 years of experience delivering impactful data solutions across consulting, edtech, and government sectors. My expertise lies in Python, Machine Learning, and Artificial Intelligence, with a strong focus on building and deploying predictive models, customer segmentation systems, and intelligent data applications. I’ve applied advanced analytics techniques such as Cohort Analysis, RFM segmentation, and predictive modeling (Random Forest, XGBoost) to real-world projects in retail banking, healthcare, and digital platforms. I have hands-on experience using Streamlit, Gradio, and Hugging Face Spaces to deploy interactive, user-friendly AI solutions. My proficiency with Hugging Face models extends to NLP tasks, including classification, summarization, and conversational agents. I’m also skilled in SQL for data engineering workflows, and Power BI for creating dynamic dashboards. I combine strong technical capabilities with business acumen, enabling me to translate data into actionable insights and bridge the gap between technical teams and decision-makers.
+							<a href="https://html5up.net/license"></a>.</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -30,7 +30,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Projects</a>
+						<a href="index.html" class="logo">My Projects</a>
 					</header>
 
 				<!-- Nav -->
@@ -40,10 +40,8 @@
 							
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							
+							
 						</ul>
 					</nav>
 
@@ -53,14 +51,18 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">2023</span>
-									<h2><a href="#">Sentiment analysis using python<br />
+									
+									<h2><a href="#">AI-Powered Waste Sorting Assistant <br />
 									</a></h2>
-									<p>In this project we analyze reviews on mobile electronic device sold on amazon.</p>
-								</header>
-								<a href="" class="image main"><img src="images/amzon_logo.png" alt="" /></a>
+									<p>This project is a real-time AI-powered waste classification tool designed to support smarter recycling. It uses a webcam-based computer vision system to instantly identify common waste types such as plastic, paper, metal, and food at the point of disposal. The goal is to reduce contamination in recyclables, improve user awareness, and encourage consistent recycling behavior across different locations. A lightweight EfficientNetB0 model was fine-tuned and selected over MobileNetV2 based on performance, achieving 93% test accuracy and macro F1-score across 9 waste categories. The model is deployed via Hugging Face Spaces and integrated into an interactive, multilingual-ready Gradio interface, allowing users to receive real-time sorting guidance through a simple browser interface, no installation or special hardware required. The tool also acts as a live demo to help raise awareness and support conversations with communities and decision-makers about better recycling solutions.
+									
+										<a href="https://github.com/Halimat92/Waste_Classificaation/blob/main/waste_classification_code/recycling.ipynb" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+
+							<header>
+
+								<a href="" class="image main"><img src="images/waste-classification.png" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="https://github.com/Halimat92/Portfolio/blob/main/%20final%20working.ipynb" class="button large">View Project</a></li>
+									<li><a href="https://huggingface.co/spaces/LeemahLee/waste_classifier" class="button large">View Project</a></li>
 								</ul>
 							</article>
 
@@ -68,55 +70,122 @@
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">2023</span>
-										<h2><a href="#">Tableau for Beginner<br />
+								
+										<h2><a href="#">Sentiment Analysis<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/tableau_logo.png" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/sentiment_new.jpg" alt="" /></a>
+									<p>To explore the effectiveness of different sentiment analysis methods, this study implemented a range of machine learning models, including Logistic Regression, Support Vector Machines (SVC), Decision Trees, Random Forests, Extra Trees Classifier, K-Nearest Neighbors, and Bernoulli Naive Bayes. Text data was preprocessed using standard NLP techniques and vectorized using TF-IDF. To address class imbalance, SMOTE was applied, and models were evaluated using cross-validation, ROC-AUC, and classification reports. Hyperparameter tuning was conducted using GridSearchCV to optimize model performance. This comprehensive modeling approach allowed for a robust comparison of traditional classifiers in predicting sentiment from Amazon product reviews.
+									<a href="https://github.com/Halimat92/Sentiment-Analysis/blob/main/Sentiment%20Analysis.ipynb" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+									
+									</header>
 									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/ayeola.aina.halimat.olabisi/viz/Ayeola-Aina/Sheet1" class="button">View Project</a></li>
+									
+									
+									<li><a href="hjjj" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										
+										<h2><a href="#">RFM-Based Customer Segmentation<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/customersegmentation.png" alt="" /></a>
+									<p>This project applies RFM (Recency, Frequency, Monetary) analysis on banking transaction data to segment customers based on behavior. After calculating RFM scores, KMeans clustering was used to identify key customer groups (e.g., Loyal Customers, At Risk). The insights help BankTrust reduce churn and improve marketing strategies. An interactive dashboard was also built with Streamlit to visualize segments and simulate engagement scenarios.
+									<a href="https://github.com/Halimat92/Optimizing-Retail-Banking-Strategies-/blob/main/Optimizing_Retail_Banking_Strategies.ipynb" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+									
+									</header>
+									<ul class="actions special">
+										<li><a href="https://bank-trust.streamlit.app/" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+
+								<article>
+									<header>
+										
+										<h2><a href="#">Cohort Analysis<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/cohort.jpg" alt="" /></a>
+									<p>This project combines Cohort Analysis, RFM Segmentation, and Predictive Modeling to understand and optimize customer lifecycle management. Customers were grouped by purchase behavior, segmented using K-Means clustering on RFM scores, and analyzed for retention trends. The BG/NBD model was used to predict purchase frequency, while Random Forest and XGBoost forecasted future spending. These insights support targeted marketing, improved retention, and data-driven decision-making for customer value optimization                           
+									<a href="https://github.com/Halimat92/Cohort-Analysis-on-E-shop-pro/blob/main/Cohort-Analysis-on-E-Shop-Pro.ipynb" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+									
+									</header>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project</a></li>
+									</ul>
+								</article>
+								
+								
+
+
+								<article>
+									<header>
+										
+										<h2><a href="#">Investigating Netflix Movie<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Netflix.jpg" alt="" /></a>
+									<p>This project explores whether the average duration of movies on Netflix has been declining over time. Using pandas, NumPy, and matplotlib, the analysis uncovers trends in movie lengths and investigates factors that may influence shifts in production and viewer preferences on the platform.
+									<a href="https://github.com/Halimat92/Netflix/blob/main/Netflix.ipynb" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+									
+									</header>
+										<ul class="actions special">
+										<li><a href="#" class="button">View Project</a></li>
+									</ul>
+								</article>
+								
+
+								
+
+								
+								<article>
+									<header>
+
+										<h2><a href="#">Healthcare Patient Record Management System (sql)<br />
+										</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Hospital-M-S.jpg" alt="" /></a>
+									<p>This project leverages SQL to build a structured healthcare database for patient data management and analysis. It includes creating relationships between medical records, cleaning and transforming healthcare data, and generating insights such as patient conditions, hospital stay duration, and average treatment costs. Advanced features like stored procedures, triggers, and events support automation, personalized reminders, and efficient data handling, all aimed at improving healthcare operations and patient outcomes.
+									
+										<a href="https://github.com/Halimat92/Healthcare-Management-System-DB-/blob/main/Healthcare%20Management%20System.sql" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+									</header>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="#">sql<br />
-										</h2>
+										<h2><a href="#">Cyclistic Bike Share (sql)<br />
+									   </a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/sql_logo.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/Bike-Share.jpg" alt="" /></a>
+									<p>This project explores ride behavior trends for Cyclistic bike-share users using SQL. Data from four months was cleaned, transformed, and unified into a single view. Analysis focused on ride duration patterns by membership type and day of the week. Key insights include maximum and minimum ride lengths, behavioral differences between casual and member riders, and peak usage days, supporting business decisions around marketing, user engagement, and service optimization.
+									<a href="https://github.com/Halimat92/Portfolio/blob/main/Cyclistic%20Bike-Share.sql" target="_blank" style="color: red; font-weight: bold;">Click here to view the code</a>
+									</header>
+
 									<ul class="actions special">
 										<li><a href="#" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
+										<h2><a href="#">Cyclistic Bike Share (Power BI)<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/Bike-Share.jpg" alt="" /></a>
+									<p>This Power BI dashboard presents a visual analysis of Cyclistic bike-share data from January to April, focusing on ride durations, user membership types, and weekly usage trends. Built on SQL-cleaned data, it highlights key insights such as maximum and minimum ride lengths, differences in behavior between casual and member users, and peak riding days. With interactive filters and dynamic visuals, the dashboard supports data-driven decision-making for marketing strategies and operational improvements.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">View Project</a></li>
 									</ul>
 								</article>
-								<article>
+								<!-- <article>
 									<header>
-										<span class="date">April 11, 2017</span>
+										
 										<h2><a href="#">Odio magna<br />
 										sed consectetur</a></h2>
 									</header>
@@ -125,15 +194,15 @@
 									<ul class="actions special">
 										<li><a href="#" class="button">View Project</a></li>
 									</ul>
-								</article>
+								</article> -->
 								<article>
 									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
+										
+										<h2><a href="#">Exploring NYC Public School Test Result Scores<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/Public-schools.jpg" alt="" /></a>
+									<p>This project focus
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
@@ -142,65 +211,35 @@
 
 						<!-- Footer -->
 							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
+								
 							</footer>
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
+						
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
-								<p>Benfleet, Essex, United Kingdom.<br />
+								<p>Chelmsford, Essex, United Kingdom.<br />
 									</p>
 							</section>
 							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(+44) 756..........</a></p>
+								<h3>Mobile Number</h3>
+								<p><a href="#">(+44) 7562508272</a></p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">leemah@gmail.com</a></p>
+								<p><a href="#">ayeolaainahalimat@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.linkedin.com/in/ayeola-aina-halimat-485429114/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									
 								</ul>
 							</section>
 						</section>
